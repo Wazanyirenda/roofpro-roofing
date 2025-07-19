@@ -55,7 +55,7 @@ const [counters, setCounters] = useState<{[key: string]: number}>({
           animateCounters();
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.1 }
     );
 
     if (sectionRef.current) {
@@ -114,7 +114,7 @@ const [counters, setCounters] = useState<{[key: string]: number}>({
             <div 
               key={index}
               className={`text-center transition-all duration-1000 ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                isVisible ? 'opacity-100 md:translate-y-0' : 'opacity-0 md:translate-y-10'
               }`}
               style={{ transitionDelay: `${index * 200}ms` }}
             >

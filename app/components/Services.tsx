@@ -14,7 +14,7 @@ export default function Services() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.1 }
     );
 
     if (sectionRef.current) {
@@ -66,7 +66,7 @@ export default function Services() {
   return (
     <section id="services" className="py-12 md:py-20 bg-gray-50" ref={sectionRef}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`text-center mb-12 md:mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`text-center mb-12 md:mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 md:translate-y-0' : 'opacity-0 md:translate-y-10'}`}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Our Roofing Services
           </h2>
@@ -81,7 +81,7 @@ export default function Services() {
             <div 
               key={index} 
               className={`bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-500 cursor-pointer group hover:scale-105 transform ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                isVisible ? 'opacity-100 md:translate-y-0' : 'opacity-0 md:translate-y-10'
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
@@ -113,7 +113,7 @@ export default function Services() {
           ))}
         </div>
 
-        <div className={`mt-12 md:mt-16 text-center transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`mt-12 md:mt-16 text-center transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 md:translate-y-0' : 'opacity-0 md:translate-y-10'}`}>
           <div className="bg-blue-600 text-white rounded-2xl p-6 md:p-8 max-w-3xl md:max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
             <p className="text-xl mb-6 opacity-90">

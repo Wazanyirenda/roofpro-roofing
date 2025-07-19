@@ -161,6 +161,9 @@ export default function Footer() {
               <span>BBB A+ Rated</span>
             </div>
           </div>
+          <div className="text-center mt-4 text-gray-400 text-sm">
+            Made by <a href="https://wazama.vercel.app" className="text-blue-300 hover:text-blue-100 transition-colors" target="_blank" rel="noopener noreferrer">Wazama</a>
+          </div>
         </div>
       </div>
     </footer>
