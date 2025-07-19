@@ -72,7 +72,7 @@ export default function Services() {
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-600 max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto">
             From installations to emergency repairs, we provide comprehensive roofing solutions 
-            for residential and commercial properties throughout Massachusetts.
+            for residential and commercial properties throughout Zambia.
           </p>
         </div>
 

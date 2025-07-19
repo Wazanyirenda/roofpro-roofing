@@ -13,7 +13,7 @@ export default function Footer() {
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed text-sm md:text-base">
               Your trusted roofing partner with 25+ years of experience protecting homes 
-              throughout Massachusetts with quality craftsmanship and exceptional service.
+              throughout Zambia with quality craftsmanship and exceptional service.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-colors cursor-pointer">
@@ -112,8 +112,8 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-gray-300 text-sm">Call Us</p>
-                  <a href="tel:5551234567" className="text-white font-semibold cursor-pointer">
-                    (555) 123-4567
+                  <a href="tel:+260971234567" className="text-white font-semibold cursor-pointer">
+                    +260 971 234567
                   </a>
                 </div>
               </div>
@@ -124,8 +124,8 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-gray-300 text-sm">Email Us</p>
-                  <a href="mailto:info@roofpro.com" className="text-white font-semibold cursor-pointer">
-                    info@roofpro.com
+                  <a href="mailto:info@roofpro.zm" className="text-white font-semibold cursor-pointer">
+                    info@roofpro.zm
                   </a>
                 </div>
               </div>
@@ -136,7 +136,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-gray-300 text-sm">Service Area</p>
-                  <p className="text-white">Massachusetts & Surrounding Areas</p>
+                  <p className="text-white">Zambia & Surrounding Areas</p>
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2025 RoofPro. All rights reserved. Licensed & Insured Roofing Contractors.
+              © 2025 RoofPro Zambia. All rights reserved. Licensed & Insured Roofing Contractors.
             </p>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <span>License #MA-123456</span>

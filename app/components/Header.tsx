@@ -75,7 +75,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
             <div className="flex items-center text-xs md:text-sm text-gray-600">
               <i className="ri-phone-line text-blue-600 mr-2"></i>
-              <span className="font-medium">(555) 123-4567</span>
+              <span className="font-medium">+260 971 234567</span>
             </div>
             <button 
               onClick={() => scrollToSection('contact')}
@@ -132,7 +132,7 @@ export default function Header() {
             <div className="pt-4 border-t border-gray-200">
               <div className="flex items-center text-sm text-gray-600 mb-3">
                 <i className="ri-phone-line text-blue-600 mr-2"></i>
-                <span className="font-medium">(555) 123-4567</span>
+                <span className="font-medium">+260 971 234567</span>
               </div>
               <button 
                 onClick={() => scrollToSection('contact')}

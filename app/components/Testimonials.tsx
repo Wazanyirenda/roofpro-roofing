@@ -37,29 +37,29 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      location: 'Springfield, MA',
+      name: 'Sarah Mwansa',
+      location: 'Lusaka, Zambia',
       rating: 5,
       text: 'RoofPro exceeded our expectations! They replaced our entire roof after storm damage and the quality is outstanding. The team was professional, clean, and finished ahead of schedule. Highly recommend!',
       service: 'Roof Replacement'
     },
     {
-      name: 'Michael Chen',
-      location: 'Boston, MA',
+      name: 'Michael Banda',
+      location: 'Ndola, Zambia',
       rating: 5,
       text: 'Emergency roof repair during a major storm - they came out the same day and fixed our leak perfectly. Fair pricing and excellent communication throughout the process. Will definitely use them again.',
       service: 'Emergency Repair'
     },
     {
-      name: 'Lisa Rodriguez',
-      location: 'Worcester, MA',
+      name: 'Lisa Chanda',
+      location: 'Kitwe, Zambia',
       rating: 5,
       text: 'From initial inspection to final cleanup, RoofPro was fantastic. They helped us navigate the insurance claim and delivered a beautiful new roof. The craftsmanship is top-notch and the warranty gives us peace of mind.',
       service: 'Insurance Claim'
     },
     {
-      name: 'David Thompson',
-      location: 'Cambridge, MA',
+      name: 'David Lungu',
+      location: 'Livingstone, Zambia',
       rating: 5,
       text: 'Professional service from start to finish. The crew was respectful of our property, worked efficiently, and the new roof looks amazing. Great communication and fair pricing. Couldn\'t be happier!',
       service: 'Roof Installation'
@@ -92,7 +92,7 @@ export default function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-600 max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto">
-            Don't just take our word for it. Here's what homeowners throughout Massachusetts 
+            Don't just take our word for it. Here's what homeowners throughout Zambia 
             say about their experience with RoofPro.
           </p>
         </div>

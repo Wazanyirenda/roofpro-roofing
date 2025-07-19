@@ -19,7 +19,7 @@ export default function StatsSection() {
       label: 'Projects Completed', 
       suffix: '+',
       icon: 'ri-building-line',
-      description: 'Successful roofing projects across Massachusetts'
+      description: 'Successful roofing projects across Zambia'
     },
     { 
       key: 'customers', 
@@ -105,7 +105,7 @@ export default function StatsSection() {
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl opacity-90 max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto">
             Our numbers speak for themselves. Here's why RoofPro is the preferred choice 
-            for roofing services throughout Massachusetts.
+            for roofing services throughout Zambia.
           </p>
         </div>
 

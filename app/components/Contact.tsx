@@ -88,7 +88,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Phone</h4>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">+260 971 234567</p>
                     <p className="text-sm text-gray-500">24/7 Emergency Service</p>
                   </div>
                 </div>
@@ -110,8 +110,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-1">Service Area</h4>
-                    <p className="text-gray-600">Greater Boston & Central MA</p>
-                    <p className="text-sm text-gray-500">Within 50 miles of Boston</p>
+                    <p className="text-gray-600">Lusaka & Copperbelt Provinces</p>
+                    <p className="text-sm text-gray-500">Within 100 km of Lusaka</p>
                   </div>
                 </div>
 
@@ -134,7 +134,7 @@ export default function Contact() {
                   Storm damage? Severe leak? We offer 24/7 emergency roofing services to protect your home.
                 </p>
                 <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap hover:scale-105 transform transition-transform duration-200">
-                  Call Emergency Service
+                  Call Emergency Service +260 971 234567
                 </button>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-sm hover:border-blue-300"
-                    placeholder="(555) 123-4567"
+                    placeholder="+260 971 234567"
                   />
                 </div>
               </div>
