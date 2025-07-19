@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, ChangeEvent, FormEvent } from 'react';
 
 export default function Contact() {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,7 +33,7 @@ export default function Contact() {
     return () => observer.disconnect();
   }, []);
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -41,7 +41,7 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     
@@ -134,7 +134,7 @@ export default function Contact() {
                   Storm damage? Severe leak? We offer 24/7 emergency roofing services to protect your home.
                 </p>
                 <button className="w-full md:w-auto bg-white text-blue-600 px-4 py-3 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors cursor-pointer whitespace-normal md:whitespace-nowrap hover:scale-105 transform transition-transform duration-200">
-                  Call Emergency Service <br /> +260 971 234567
+                  Call Emergency Service +260 971 234567
                 </button>
               </div>
             </div>

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 
 export default function StatsSection() {
-  const [counters, setCounters] = useState({
+const [counters, setCounters] = useState<{[key: string]: number}>({
     projects: 0,
     customers: 0,
     years: 0,
@@ -92,7 +92,7 @@ export default function StatsSection() {
       <div 
         className="absolute inset-0 opacity-10"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1559301393-2f0606e731b3?auto=format&fit=crop&q=80&w=1920&h=600')`,
+          backgroundImage: `url('https://readdy.ai/api/search-image?query=Abstract%20geometric%20pattern%20with%20roof%20tiles%20and%20construction%20elements%20in%20subtle%20blue%20tones%2C%20minimalist%20background%20design%20for%20statistics%20section&width=1920&height=600&seq=stats-bg&orientation=landscape')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

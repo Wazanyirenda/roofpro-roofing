@@ -78,7 +78,7 @@ export default function Testimonials() {
     setTimeout(() => setAutoPlay(true), 10000);
   };
 
-  const goToTestimonial = (index) => {
+  const goToTestimonial = (index: number) => {
     setAutoPlay(false);
     setCurrentTestimonial(index);
     setTimeout(() => setAutoPlay(true), 10000);
