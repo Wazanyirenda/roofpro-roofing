@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Pacifico } from "next/font/google";
+import { Geist, Geist_Mono, Lobster } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 export const viewport = {
@@ -7,11 +7,11 @@ export const viewport = {
   initialScale: 1,
 };
 
-const pacifico = Pacifico({
+const lobster = Lobster({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-pacifico',
+  variable: '--font-lobster',
 })
 
 const geistSans = Geist({
@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lobster.variable} antialiased`}
       >
         {children}
       </body>

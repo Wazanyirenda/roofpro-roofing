@@ -34,7 +34,7 @@ export default function Header() {
           <Link 
             href="/" 
             className="text-xl md:text-2xl lg:text-3xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300 hover:scale-105 transform"
-            style={{ fontFamily: '"Pacifico", serif' }}
+            style={{ fontFamily: '"Lobster", serif' }}
           >
             RoofPro
           </Link>

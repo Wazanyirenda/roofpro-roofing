@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl md:text-2xl font-bold mb-6" style={{fontFamily: "Pacifico, serif"}}>
+            <h3 className="text-xl md:text-2xl font-bold mb-6" style={{fontFamily: "Lobster, serif"}}>
               RoofPro
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed text-sm md:text-base">
