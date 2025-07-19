@@ -4,12 +4,12 @@ export default function Hero() {
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center bg-cover bg-center bg-gray-900"
+      className="relative min-h-screen flex items-center bg-cover bg-center bg-gray-900 w-full"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://readdy.ai/api/search-image?query=Professional%20roofing%20contractor%20working%20on%20modern%20residential%20house%20roof%20installation%20with%20clean%20blue%20sky%20background%2C%20showing%20quality%20craftsmanship%20and%20attention%20to%20detail%20in%20roofing%20construction%20work&width=1920&height=1080&seq=hero-roofing&orientation=landscape')`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1559301393-2f0606e731b3?auto=format&fit=crop&q=80&w=1920&ixlib=rb-4.0.3')`
       }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-16 w-full">
         <div className="w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl">
           <div className="text-white">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight">

@@ -39,7 +39,7 @@ export default function StatsSection() {
     },
     { 
       key: 'warranty', 
-      number: 25, 
+      number: 5, 
       label: 'Year Warranty', 
       suffix: '',
       icon: 'ri-shield-check-line',
@@ -92,7 +92,7 @@ export default function StatsSection() {
       <div 
         className="absolute inset-0 opacity-10"
         style={{
-          backgroundImage: `url('https://readdy.ai/api/search-image?query=Abstract%20geometric%20pattern%20with%20roof%20tiles%20and%20construction%20elements%20in%20subtle%20blue%20tones%2C%20minimalist%20background%20design%20for%20statistics%20section&width=1920&height=600&seq=stats-bg&orientation=landscape')`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1559301393-2f0606e731b3?auto=format&fit=crop&q=80&w=1920&h=600')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

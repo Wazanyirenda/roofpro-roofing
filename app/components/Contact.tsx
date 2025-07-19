@@ -64,7 +64,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-12 md:py-20 bg-white" ref={sectionRef}>
+    <section id="contact" className="py-12 md:py-20 bg-white w-full" ref={sectionRef}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-12 md:mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -76,9 +76,9 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-16">
-          <div className={`transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-            <div className="bg-blue-50 rounded-2xl p-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
+          <div className={`transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'} w-full`}>
+            <div className="bg-blue-50 rounded-2xl p-4 sm:p-8 w-full">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
               
               <div className="space-y-6">
@@ -130,18 +130,18 @@ export default function Contact() {
 
               <div className="mt-8 p-6 bg-blue-600 rounded-xl text-white">
                 <h4 className="text-xl font-bold mb-2">Emergency Service Available</h4>
-                <p className="mb-4 opacity-90">
+                <p className="mb-4 opacity-90 text-sm md:text-base">
                   Storm damage? Severe leak? We offer 24/7 emergency roofing services to protect your home.
                 </p>
-                <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap hover:scale-105 transform transition-transform duration-200">
-                  Call Emergency Service +260 971 234567
+                <button className="w-full md:w-auto bg-white text-blue-600 px-4 py-3 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors cursor-pointer whitespace-normal md:whitespace-nowrap hover:scale-105 transform transition-transform duration-200">
+                  Call Emergency Service <br /> +260 971 234567
                 </button>
               </div>
             </div>
           </div>
 
-          <div className={`transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
-            <form id="contact-form" onSubmit={handleSubmit} className="bg-gray-50 rounded-2xl p-8">
+          <div className={`transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'} w-full`}>
+            <form id="contact-form" onSubmit={handleSubmit} className="bg-gray-50 rounded-2xl p-4 sm:p-8 w-full">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Request Your Free Quote</h3>
               
               {submitStatus === 'success' && (
@@ -150,7 +150,7 @@ export default function Contact() {
                 </div>
               )}
 
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                     Full Name *

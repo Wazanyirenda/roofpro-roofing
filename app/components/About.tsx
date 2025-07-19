@@ -113,8 +113,8 @@ export default function About() {
 
           <div className={`relative transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <img 
-              src="https://readdy.ai/api/search-image?query=Professional%20roofing%20team%20working%20on%20residential%20house%20with%20modern%20tools%20and%20safety%20equipment%2C%20showing%20skilled%20craftsmen%20installing%20quality%20roofing%20materials%20with%20attention%20to%20detail%20and%20professional%20standards&width=600&height=700&seq=about-roofing&orientation=portrait"
-              alt="Professional roofing team at work"
+              src="https://images.unsplash.com/photo-1581093458791-9a1b1e719a3b?auto=format&fit=crop&q=80&w=600&h=700"
+              alt="Zambian roofing team at work"
               className="rounded-xl shadow-lg object-cover object-top w-full h-96 hover:scale-105 transition-transform duration-500"
             />
             

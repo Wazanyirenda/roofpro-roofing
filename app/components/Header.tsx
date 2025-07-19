@@ -79,7 +79,7 @@ export default function Header() {
             </div>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 md:px-6 md:py-2 rounded-lg font-semibold transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 transform"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm sm:px-6 sm:py-2 rounded-lg font-semibold transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 transform"
             >
               Free Quote
             </button>
@@ -87,18 +87,18 @@ export default function Header() {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden w-8 h-8 flex items-center justify-center text-gray-700 hover:text-blue-600 transition-colors duration-300 cursor-pointer"
+            className="md:hidden w-10 h-10 flex items-center justify-center text-gray-700 hover:text-blue-600 transition-colors duration-300 cursor-pointer"
           >
-            <i className={`text-2xl transition-transform duration-300 ${
+            <i className={`text-3xl transition-transform duration-300 ${
               isMenuOpen ? 'ri-close-line rotate-180' : 'ri-menu-line'
             }`}></i>
           </button>
         </div>
 
-        <div className={`md:hidden transition-all duration-300 overflow-hidden ${
-          isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+        <div className={`md:hidden transition-all duration-300 overflow-hidden w-full ${
+          isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}>
-          <nav className="py-4 space-y-4 border-t border-gray-200 mt-4">
+          <nav className="py-4 space-y-4 border-t border-gray-200 mt-4 w-full">
             <button 
               onClick={() => scrollToSection('home')}
               className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 cursor-pointer py-2 hover:translate-x-2 transform"
@@ -136,7 +136,7 @@ export default function Header() {
               </div>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-300 cursor-pointer"
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 text-sm rounded-lg font-semibold transition-colors duration-300 cursor-pointer"
               >
                 Get Free Quote
               </button>
