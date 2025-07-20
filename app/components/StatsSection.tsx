@@ -150,7 +150,7 @@ const [counters, setCounters] = useState<{[key: string]: number}>({
                 Get Free Estimate
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 transform">
-                Call (555) 123-4567
+                Call +260 971 234567
               </button>
             </div>
           </div>

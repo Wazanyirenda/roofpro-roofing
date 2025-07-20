@@ -36,7 +36,7 @@ export default function Header() {
             className="text-xl md:text-2xl lg:text-3xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300 hover:scale-105 transform"
             style={{ fontFamily: '"Lobster", serif' }}
           >
-            RoofPro
+            RoofPro Zambia
           </Link>
 
           <nav className="hidden md:flex items-center space-x-4 lg:space-x-8">

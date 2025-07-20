@@ -124,7 +124,7 @@ export default function Services() {
                 Get Free Quote
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer whitespace-nowrap hover:scale-105 transform transition-transform duration-200">
-                Call (555) 123-4567
+                Call +260 971 234567
               </button>
             </div>
           </div>
